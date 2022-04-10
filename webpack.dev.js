@@ -6,7 +6,6 @@ module.exports = merge(common , {
   devtool: 'inline-source-map',
   devServer: {
     static: './public',
-    contentBase: './public',
     hot: true   // Hot reloading default: true
   }
 })
