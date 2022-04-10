@@ -1,0 +1,12 @@
+h1 {
+  font-size: 4rem;
+  font-family: George , sans-serif;
+}
+
+@font-face {
+  font-family: George;
+  src: url('../fonts/georgex-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

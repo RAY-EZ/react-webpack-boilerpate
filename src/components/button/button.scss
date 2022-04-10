@@ -1,0 +1,16 @@
+button.primary{
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.8rem 1.6rem;
+  background-color: black;
+  color: #f3f3f3;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1.2rem;
+  transition: background-color 0.4s ease-out;
+}
+button:hover{
+  opacity: 1;
+  color: #000;
+  background-color: #61dbfb;
+}

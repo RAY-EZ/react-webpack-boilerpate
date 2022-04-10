@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  user-select: none;
+}
+img {
+  max-height: 20rem;
+}
+html {
+  font-family: George , sans-serif;;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,50 @@
+{
+  "name": "reactwebpackboilerplate",
+  "version": "0.0.1",
+  "description": "react boilder plate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RAY-EZ/react-webpack-boilerpate.git"
+  },
+  "author": "ray-ez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RAY-EZ/react-webpack-boilerpate/issues"
+  },
+  "homepage": "https://github.com/RAY-EZ/react-webpack-boilerpate#readme",
+  "dependencies": {
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "serve": "13.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.17.9",
+    "@babel/preset-env": "7.16.11",
+    "@babel/preset-react": "7.16.7",
+    "@types/webpack": "5.28.0",
+    "autoprefixer": "10.4.4",
+    "babel-loader": "8.2.4",
+    "css-loader": "6.7.1",
+    "css-minimizer-webpack-plugin": "3.4.1",
+    "dart-sass": "1.25.0",
+    "html-webpack-plugin": "5.5.0",
+    "mini-css-extract-plugin": "2.6.0",
+    "postcss": "8.4.12",
+    "postcss-loader": "6.2.1",
+    "resolve-url-loader": "5.0.0",
+    "sass": "1.50.0",
+    "sass-loader": "12.6.0",
+    "style-loader": "3.3.1",
+    "webpack": "5.72.0",
+    "webpack-cli": "4.9.2",
+    "webpack-dev-server": "4.8.1",
+    "webpack-merge": "5.8.0"
+  }
+}
