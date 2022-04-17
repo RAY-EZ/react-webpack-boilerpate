@@ -4,10 +4,10 @@
   "description": "react boilder plate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "watch": "webpack --watch"
+    "dev": "webpack serve --open --config webpack.dev.js",
+    "serve": "node ./node_modules/.bin/serve public",
+    "start": "npm run build && npm run serve"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "@babel/core": "7.17.9",
     "@babel/preset-env": "7.16.11",
     "@babel/preset-react": "7.16.7",
+    "@squoosh/lib": "0.4.0",
     "@types/webpack": "5.28.0",
     "autoprefixer": "10.4.4",
     "babel-loader": "8.2.4",
@@ -35,6 +36,12 @@
     "css-minimizer-webpack-plugin": "3.4.1",
     "dart-sass": "1.25.0",
     "html-webpack-plugin": "5.5.0",
+    "image-minimizer-webpack-plugin": "3.2.3",
+    "imagemin": "8.0.1",
+    "imagemin-gifsicle": "7.0.0",
+    "imagemin-jpegtran": "7.0.0",
+    "imagemin-optipng": "8.0.0",
+    "imagemin-svgo": "10.0.1",
     "mini-css-extract-plugin": "2.6.0",
     "postcss": "8.4.12",
     "postcss-loader": "6.2.1",
