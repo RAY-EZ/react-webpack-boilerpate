@@ -51,8 +51,8 @@ module.exports = {
         type: 'asset/resource',
         generator: {
           filename: '[name].[hash][ext]',
-          publicPath: '/medias/',
-          outputPath: './medias/'
+          publicPath: '/static/medias/',
+          outputPath: './static/medias/'
         }
       },
       {
@@ -60,14 +60,14 @@ module.exports = {
         type: 'asset/resource',
         generator: {
           filename: '[name].[hash][ext]',
-          publicPath: '/fonts/',
-          outputPath: './fonts'
+          publicPath: '/static/fonts/',
+          outputPath: './static/fonts'
         }
       },
     ]
   },
   output: {
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
     path: PUBLIC_DIR,
     // publicPath: '/public',
     // assetModuleFilename: 'medias/[name].[hash][ext]',
